@@ -18,7 +18,12 @@ class ninja {
             if(chacra >= 7.5) System.out.println("Biju no comando");
             else System.out.println("Chachra insuficiente para liberar biju");
         }
-        else System.out.println("Usuario nao tem biju");
+        else System.out.println("Não tem biju");
+    }
+
+    public void ataqueEspecial() {
+        //cada clan(separado por classes) possui um metodo ataqueEspecial diferente
+        //qnd chamado esse metodo ele executará diferentes tarefas dependendo do clan(classe) chamado
     }
 
 }

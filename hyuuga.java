@@ -4,6 +4,8 @@ class hyuuga extends ninja {
     boolean byakugan;
 
     //metodos exclusivos dos hyuugas
+
+        //byakugan
     public void ativarByakugan() {
         if(byakugan) {
             System.out.println("Byakugan já está ativado");
@@ -14,10 +16,15 @@ class hyuuga extends ninja {
         }
     }
     public void desativarByakugan() {
-        if(byakugan == true) {
+        if(byakugan) {
             System.out.println("Desativando byakugan");
             byakugan = false;
         }
         else System.out.println("Byakugan já está desativado");
     }
+
+    @Override
+    public void ataqueEspecial() {
+            System.out.println("Jyuuken");
+        }
 }
