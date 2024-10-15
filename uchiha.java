@@ -39,9 +39,17 @@ class uchiha extends ninja{
         else System.out.println("Não possui Mangekyo Sharingan");
     }
 
+    //ataque basico com polimorfismo
+    public void ataqueBasico(double chacra) {
+        if(chacra > 7) {
+            if(sharingan == false) sharingan = true;
+            System.out.println("Copiando jutsu do adversário com o sharingan");
+        }
+        else System.out.println("Antecipando ataques dos inimigos com o sharingan");
+    }
+
     @Override
     public void ataqueEspecial() {
             System.out.println("Chidori");
         }
-
 }

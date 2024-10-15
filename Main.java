@@ -27,40 +27,52 @@ class Main {
             sasuke.chacra = 4.3;
             sasuke.biju = false;
 
-/*
-        //ataque basico
-        neji.ataqueBasico();
-        gaara.ataqueBasico();
-        sasuke.ataqueBasico();
-
-        //biju
-        neji.ativarBiju();
-        gaara.ativarBiju();
-        sasuke.ativarBiju();
         
 
-       //uchiha
-       sasuke.sharingan = false;
-       sasuke.ativarSharingan();
-       sasuke.nivelSharingan = 3;
-       sasuke.ativarMangekyo();
-       sasuke.desativarMangekyo();
-       sasuke.desativarSharingan();
+        //uchiha
+        sasuke.ataqueBasico();
 
-       //hyuuga
-       neji.byakugan = false;
-       neji.ativarByakugan();
-       neji.desativarByakugan();
+        sasuke.ataqueBasico(sasuke.chacra);
+
+        sasuke.ataqueEspecial();
+
+        sasuke.ativarBiju();
+
+        sasuke.sharingan = false;
+        sasuke.ativarSharingan();
+        sasuke.nivelSharingan = 3;
+        sasuke.ativarMangekyo();
+        sasuke.desativarMangekyo();
+        sasuke.desativarSharingan();
+
+        //hyuuga
+        neji.ataqueBasico();
+
+        neji.ataqueBasico(neji.chacra);
+
+        neji.ataqueEspecial();
+
+        neji.ativarBiju();
+
+        neji.byakugan = false;
+        neji.ativarByakugan();
+        neji.desativarByakugan();
 
         //uzumaki
-        System.out.println(naruto.chacra);
-        naruto.aumentarChacra(naruto.chacra);
+        naruto.ataqueBasico();
 
-        //ataque especial
+        naruto.ataqueBasico(naruto.chacra);
+
         naruto.ataqueEspecial();
-        sasuke.ataqueEspecial();
-        neji.ataqueEspecial();
-*/
+
+        naruto.ativarBiju();
+        //System.out.println(naruto.chacra);
+
+        naruto.aumentarChacra(naruto.chacra);
+        //System.out.println(naruto.chacra);
+
+        naruto.ativarBiju();
+        //System.out.println(naruto.chacra);
 
 
     }

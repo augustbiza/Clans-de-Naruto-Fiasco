@@ -13,6 +13,12 @@ class ninja {
         System.out.println("Lançar kunai");
     }
 
+    public void ataqueEspecial() {
+
+        //cada clan(separado por classes) possui um metodo ataqueEspecial diferente @Override
+        //qnd chamado esse metodo ele executará diferentes tarefas dependendo do clan(classe) chamado
+    }
+    
     public void ativarBiju() {
         if(biju) {
             if(chacra >= 7.5) System.out.println("Biju no comando");
@@ -21,9 +27,5 @@ class ninja {
         else System.out.println("Não tem biju");
     }
 
-    public void ataqueEspecial() {
-        //cada clan(separado por classes) possui um metodo ataqueEspecial diferente
-        //qnd chamado esse metodo ele executará diferentes tarefas dependendo do clan(classe) chamado
-    }
 
 }

@@ -23,6 +23,10 @@ class hyuuga extends ninja {
         else System.out.println("Byakugan já está desativado");
     }
 
+    public void ataqueBasico(double chacra) {
+            System.out.println("Visualizando fluxo de chacra do inimgo");
+        }
+
     @Override
     public void ataqueEspecial() {
             System.out.println("Jyuuken");
