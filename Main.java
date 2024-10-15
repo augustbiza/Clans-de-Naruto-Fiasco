@@ -56,11 +56,11 @@ class Main {
         System.out.println(naruto.chacra);
         naruto.aumentarChacra(naruto.chacra);
 
-*/
         //ataque especial
         naruto.ataqueEspecial();
         sasuke.ataqueEspecial();
         neji.ataqueEspecial();
+*/
 
 
     }
